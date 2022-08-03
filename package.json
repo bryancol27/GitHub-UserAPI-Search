@@ -1,9 +1,12 @@
 {
   "name": "materia-ui-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "homepage": "http://bryancol27.github.io/GitHub-UserAPI-Search",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -13,6 +16,7 @@
     "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.9.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
